@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #F1F5F8;
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: #102A42;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+}
+
+.counter{
+    color: #222222;
+    font-size: 7rem;
+    font-weight: 500;
+    margin: 3rem 0;
+}
+
+.buttons{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
